@@ -1,2 +1,2 @@
 # event-board-playground
-Scripts for adding board_id on paper events
+Scripts for convert papers to V2 (post lazy-loading)

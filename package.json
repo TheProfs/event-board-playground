@@ -1,0 +1,33 @@
+{
+  "name": "event-board-playground",
+  "version": "0.1.0",
+  "description": "Scripts for adding board_id to Bitpaper papers",
+  "main": "fetch-events.js",
+  "scripts": {
+    "fetch": "node ./fetch-events.js test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheProfs/event-board-playground.git"
+  },
+  "keywords": [
+    "bitpaper",
+    "scripts",
+    "conversion",
+    "board",
+    "lazy",
+    "loading"
+  ],
+  "author": "@Bitpaper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheProfs/event-board-playground/issues"
+  },
+  "homepage": "https://github.com/TheProfs/event-board-playground#readme",
+  "dependencies": {
+    "knex": "^1.0.1",
+    "pg": "^8.7.1",
+    "shortid": "^2.2.16"
+  }
+}
